@@ -1,0 +1,106 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #B7D5D4;
+}
+
+.principal {
+    background: #488286;
+    width:1260px;
+    height: 250px;
+    position: relative;
+}
+
+.principal .Nombres {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 40%;
+    
+}
+
+.principal .Nombres .p1 {
+    margin-top: 10%;
+    color: #FFFAF0;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+img {
+    height: 200px;
+}
+
+.principal .foto {
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+
+.datos {
+    width: 1100px;
+    height: auto;
+    background: #488286;
+    margin: 6% auto;
+    padding: 15px;
+    line-height: 28px;
+}
+
+.datos .titulo {
+    color: #FFFAF0;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    border-bottom: 2px floralwhite solid;
+}
+
+.datos .dato1 {
+    color: floralwhite;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bolder;
+    display: inline;
+    margin-right: 10px;
+}
+
+.datos .dato1_1 {
+    color: #242423;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    display: inline;
+}
+
+.lista {
+    color: floralwhite;
+}
+
+table {
+    background-color: white;
+    width: 65%;
+    text-align: left;
+    margin:auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding:10px;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bolder;
+}
+
+th {
+    background-color: #1C3041;
+    color: floralwhite;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.datos .video {
+    text-align: center;
+    right: 200px;
+    size: auto;
+    width: auto;
+}
